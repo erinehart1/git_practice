@@ -9,5 +9,7 @@ const words = {
 
 const randomizer = (Math.floor(Math.random()*4));
 
-console.log(`Walter, ${words.verbs[randomizer]} the ${words.adjectives[randomizer]} ${words.nouns[randomizer]}!`);
+const printMessage = () => {console.log(`Walter, ${words.verbs[randomizer]} the ${words.adjectives[randomizer]} ${words.nouns[randomizer]}!`);
+};
 
+printMessage();
